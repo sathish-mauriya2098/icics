@@ -1,7 +1,7 @@
 <?php
 session_start();
-mysql_connect('localhost','ksrceit_ksrceit','it@20201');
-mysql_select_db('ksrceit_form');
+mysql_connect('localhost','user','password');
+mysql_select_db('dbname');
 $sql="select * from icics";
 $record=mysql_query($sql);
 if(isset($_SESSION['usrnam']))
