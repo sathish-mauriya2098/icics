@@ -1,8 +1,8 @@
 <?php
-define('DB_NAME','ksrceit_form');
-define('DB_USER','ksrceit_ksrceit');
-define('DB_PASSWORD','it@20201');
-define('DB_HOST','localhost');
+define('DB_NAME','dbname');
+define('DB_USER','user');
+define('DB_PASSWORD','password');
+define('DB_HOST','host_name');
 $link=mysql_connect(DB_HOST,DB_USER,DB_PASSWORD);
 if(!$link)
 {
